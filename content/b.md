@@ -1,9 +1,7 @@
 ---
-title: "This is A's Title"
-date: 2019-09-23T12:10:52+09:00
+title: "B"
+date: 2019-10-23T12:10:52+09:00
 draft: true
-author: Chajin
-language: Korean
 ---
 
 YAML, TOML, JSON
