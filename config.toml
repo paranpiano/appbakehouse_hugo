@@ -2,3 +2,7 @@ baseURL = "http://www.appbakehouse.com"
 languageCode = "en-us"
 title = "APP BAKEHOUSE"
 theme = "ga-hugo-theme"
+[taxonomies]
+    tag = "tages"
+    category = "categories"
+    mood = "moods"

@@ -6,6 +6,7 @@ author: Chajin
 language: Korean
 tags: ["tag1", "tag2", "tag3"]
 categories: ["cat1"]
+moods: ["Happy","Upbeat"]
 ---
 
 {{< youtube 2xkNJL4gJ9E >}}
