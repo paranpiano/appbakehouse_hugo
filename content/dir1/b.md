@@ -6,4 +6,4 @@ tags: ["tag2"]
 categories: ["cat2"]
 ---
 
-This is page b.
+This is page b content
