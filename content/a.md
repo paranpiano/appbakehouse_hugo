@@ -15,4 +15,6 @@ moods: ["Happy","Upbeat"]
 This is the A markdown file. it's in the root directory.
 
 {{< myshortcode blue>}}
+    This is the text inside the shortcode tags
+{{< /myshortcode>}}
 
