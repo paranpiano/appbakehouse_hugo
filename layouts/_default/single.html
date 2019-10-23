@@ -1,5 +1,9 @@
 <h1 style="color: {{ .Params.color}};">Single Template</h1><hr><br>
 
+
+<br> 
+Variable Practice
+<br>
 {{.Title}}
 <br>
 {{.Date}}
@@ -11,3 +15,14 @@ Myvar from md file : {{ .Params.myVar}}
 myVar from Template file
 {{ $myVarName := "aString"}}
 {{ $myVarName}}
+
+<br> 
+------------------------------------------------------------------------
+<br> 
+Funciton Practice
+<br>
+{{ truncate 15 "this is a really long string"}}
+<br>
+add 1 + 5 = {{ add 1 5}}
+<br>
+{{ singularize "dogs"}}
