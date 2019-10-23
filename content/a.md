@@ -11,10 +11,10 @@ categories: ["cat1"]
 moods: ["Happy","Upbeat"]
 ---
 
-{{< youtube 2xkNJL4gJ9E >}}
-This is the A markdown file. it's in the root directory.
 
+
+this is not highligted text
 {{< myshortcode blue>}}
-    This is the text inside the shortcode tags
+    This is the thighligted text
 {{< /myshortcode>}}
 
