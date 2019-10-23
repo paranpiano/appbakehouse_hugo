@@ -1,6 +1,8 @@
 ---
 title: "A"
 date: 2019-09-23T12:10:52+09:00
+myVar: "paranpiano"
+color: blue
 draft: true
 author: Chajin
 language: Korean
