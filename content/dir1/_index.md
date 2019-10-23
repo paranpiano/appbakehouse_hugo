@@ -1,9 +1,9 @@
 ---
-title: "C"
+title: "B"
 date: 2019-10-23T14:18:03+09:00
 draft: false
-tags: ["tag3"]
+tags: ["tag2"]
 categories: ["cat2"]
 ---
 
-this C markdown
+this is the landing page for dir

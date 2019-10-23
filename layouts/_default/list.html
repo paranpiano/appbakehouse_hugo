@@ -5,6 +5,11 @@
     <title>Document</title>
 </head>
 <body>
-    some Text in body
+    {{.Content}}
+    {{ range .Pages }}
+        <ul>
+            <li><a href="{{.URL}}">{{.Title}}</a></li>
+        </ul>
+    {{end}}
 </body>
 </html>

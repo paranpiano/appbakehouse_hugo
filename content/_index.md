@@ -6,4 +6,4 @@ tags: ["tag2"]
 categories: ["cat2"]
 ---
 
-this B markdown
+This is a home page
