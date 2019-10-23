@@ -14,5 +14,5 @@ moods: ["Happy","Upbeat"]
 {{< youtube 2xkNJL4gJ9E >}}
 This is the A markdown file. it's in the root directory.
 
-{{< myshortcode color="blue">}}
+{{< myshortcode blue>}}
 
