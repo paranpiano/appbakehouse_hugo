@@ -1,9 +1,7 @@
 ---
 title: "B"
-date: 2019-10-23T12:10:52+09:00
-draft: true
+date: 2019-10-23T14:18:03+09:00
+draft: false
+author: "Chajin"
 ---
-
-YAML, TOML, JSON
-This is the A markdown file. it's in the root directory.
 
