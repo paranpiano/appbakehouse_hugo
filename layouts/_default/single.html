@@ -63,3 +63,15 @@ Conditional Practice Page , Style
 <br>
 
 
+<br> 
+------------------------------------------------------------------------
+<br> 
+Data Practice Json
+<br> 
+State Name : Capital
+{{ range .Site.Data.states}}
+        {{ .name}} : {{.capital}}
+        <br>
+{{end}}
+
+
