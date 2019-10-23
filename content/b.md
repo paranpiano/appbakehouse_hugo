@@ -6,4 +6,4 @@ tags: ["tag2"]
 categories: ["cat2"]
 ---
 
-this is the landing page for dir
+This is page b.
