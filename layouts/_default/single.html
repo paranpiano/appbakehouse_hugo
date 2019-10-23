@@ -26,3 +26,40 @@ Funciton Practice
 add 1 + 5 = {{ add 1 5}}
 <br>
 {{ singularize "dogs"}}
+
+<br> 
+------------------------------------------------------------------------
+<br> 
+Conditional Practice
+
+<br>
+dog is cat ??
+{{ $var1 := "dog"}}
+{{ $var2 := "cat"}}
+
+{{ if eq $var1 $var2 }}
+    True
+{{ else}}
+    False
+{{ end}}
+<br>
+dog is cat ??
+{{ if not (eq $var1 $var2) }}
+    True
+{{ else}}
+    False
+{{ end}}
+
+<br> 
+------------------------------------------------------------------------
+<br> 
+Conditional Practice Page , Style
+
+{{ $title := .Title}}
+{{ range .Site.Pages}}
+    <li><a href="{{.URL}}" style="{{ if eq .Title $title}} background-color:yellow;{{end}}">
+        {{.Title}}</a></li>
+{{ end}}
+<br>
+
+
