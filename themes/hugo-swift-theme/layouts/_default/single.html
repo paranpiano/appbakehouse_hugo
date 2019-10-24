@@ -14,7 +14,7 @@
 <div class = 'post'>
   <article class='post_content'>
     {{ .Content }}
-    <div class = 'post_extra'>
+<!--     <div class = 'post_extra'>
       <div class = 'copy'></div>
     </div>
     {{ partial "author.html" . }}
@@ -22,9 +22,9 @@
   {{ if .Site.Params.Staticman }}
     {{ partial "comments.html" . }}
   {{ end }}
-  <aside>
+   <aside>
     {{ partial "aside.html" . }}
-  </aside>
+  </aside>  -->
 </div>
 <script src = '{{ absURL "js/autosize.min.js" }}'></script>
 {{ $timeagoScr := resources.Get "js/timeago.js" | resources.ExecuteAsTemplate "js/timeago.js" . }}
