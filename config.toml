@@ -1,7 +1,6 @@
 baseURL = "http://www.appbakehouse.com"
 languageCode = "en-us"
 title = "APP BAKEHOUSE"
-theme = "hugo-swift-theme"
 copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
 canonifyurls = true
 paginate = 4
