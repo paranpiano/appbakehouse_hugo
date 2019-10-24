@@ -1,8 +1,11 @@
 baseURL = "http://www.appbakehouse.com"
 languageCode = "en-us"
 title = "APP BAKEHOUSE"
-theme = "appbakehouse-theme"
-[taxonomies]
-    tag = "tages"
-    category = "categories"
-    mood = "moods"
+theme = "hugo-swift-theme"
+copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
+canonifyurls = true
+paginate = 4
+# Enable syntax highlighting
+# comment on delete the following lines 11 ~ 13
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
